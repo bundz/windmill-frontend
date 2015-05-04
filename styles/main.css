@@ -185,5 +185,56 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 60px;
-  width: 351px;
+  position: relative;
+  width: 250px;
+}
+
+#joinBox > button {
+  width: 30%;
+}
+
+#line1 {
+  width: 94px;
+  height: 0px;
+  border-color: black;
+  border-style: solid;
+  position: absolute;
+  margin-top: 200px;
+  z-index: -1;
+  border-width: 1px;   
+}
+
+#line2 {
+  width: 0px;
+  height: 94px;
+  border-color: black;
+  border-style: solid;
+  position: absolute;
+  margin-left: 200px;
+  z-index: -1;
+  border-width: 1px;
+}
+
+#line3 {
+  width: 94px;
+  height: 0px;
+  border-color: black;
+  border-style: solid;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 300px;
+  z-index: -1;
+  border-width: 1px;
+}
+
+#line4 {
+  width: 0px;
+  height: 94px;
+  border-color: black;
+  border-style: solid;
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 300px;
+  z-index: -1;
+  border-width: 1px;
 }
